@@ -1,6 +1,5 @@
 import Car, { ICar } from "../models/car";
 import Client from "../models/client";
-import {Error} from "mongoose";
 export class CarService{
     async create(car: any){
         let newCar = new Car(car);
